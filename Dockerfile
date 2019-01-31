@@ -1,4 +1,4 @@
-FROM base-lamp
+FROM cved/base-lamp
 
 LABEL author="cved (cved@protonmail.com)"
 LABEL maintainer="cved (cved@protonmail.com)"
