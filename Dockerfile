@@ -17,8 +17,8 @@ RUN rm -rf /var/www/html/* \
     && chown -R www-data:www-data /var/www/html/ \
     && rm -f /tmp/*
 
-COPY build/main.sh /
+#COPY build/main.sh /
 
-EXPOSE 80
+#EXPOSE 80
 
-CMD ["/main.sh"]
+#CMD ["/main.sh"]
